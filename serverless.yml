@@ -2,7 +2,7 @@ org: antondealmeida
 app: udagram-backend
 
 service:
-  name: serverless-udagram-app
+  name: udagram-backend
 plugins:
   - serverless-webpack
   - serverless-reqvalidator-plugin
