@@ -1,6 +1,8 @@
+org: antondealmeida
+app: udagram-backend
+
 service:
   name: serverless-udagram-app
-
 plugins:
   - serverless-webpack
   - serverless-reqvalidator-plugin
@@ -10,8 +12,8 @@ plugins:
   - serverless-dynamodb-local
   - serverless-offline
 
-package:
-  individually: true
+# package:
+#   individually: true
 
 provider:
   name: aws
